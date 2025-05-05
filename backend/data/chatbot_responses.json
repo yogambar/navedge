@@ -1,0 +1,48 @@
+{
+  "greetings": {
+    "hi": ["Hello!", "Hi there!", "Hey! How can I assist you?", "Greetings!", "Hello there!"],
+    "hello": ["Hi!", "Hello! What can I do for you?", "Hey there!", "Hello, how can I help?", "Hi, how are you?"],
+    "morning": ["Good morning!", "Morning! How can I assist you?", "Rise and shine! How can I help today?"],
+    "evening": ["Good evening!", "Evening! What can I do for you?", "Hello! How has your day been?"],
+    "welcome": ["Welcome!", "Thanks for reaching out!", "Hello and welcome!", "Glad you're here!"]
+  },
+  "farewells": {
+    "bye": ["Goodbye!", "See you later!", "Take care!", "Goodbye, have a great day!", "Until next time!"],
+    "goodbye": ["Farewell!", "Have a great day!", "Bye!", "Catch you later!", "See you soon!"],
+    "see you": ["See you!", "Catch you later!", "Until next time!", "Goodbye! Take care!", "Looking forward to our next chat!"]
+  },
+  "general": {
+    "how are you": ["I'm just a bot, but I'm doing great!", "I'm here to assist you!", "Feeling helpful!", "I'm doing well, thanks for asking! How about you?", "I'm always ready to assist!"],
+    "who are you": ["I am Navedge Chatbot, here to assist you!", "I'm your AI assistant for navigation.", "I'm a friendly chatbot created to assist with your needs!", "I'm here to help you with anything you need!"],
+    "what can you do": ["I can help with navigation, answer questions, and assist you in various tasks.", "I can assist you with finding places, answering general questions, and much more!"],
+    "where are you from": ["I'm an AI, so I don't have a physical location, but I'm here to assist you wherever you are!"]
+  },
+  "navigation": {
+    "find route": ["Please enter your source and destination.", "Where do you want to go today?", "I'd be happy to assist with your route. Let me know your starting point and destination.", "Tell me your location and where you're headed, and I'll help you find the way!"],
+    "nearest place": ["What type of place are you looking for?", "I can help find nearby locations. What are you looking for?", "Let me know what you're searching for nearby, and I'll assist you!", "What kind of place do you need? I can find some nearby options."],
+    "location help": ["Please share your current location so I can assist better.", "Where are you located? Let me help you find nearby places!"],
+    "directions": ["I can help with directions. Just tell me where you're going!", "Need directions? Let me know the destination, and I'll guide you."]
+  },
+  "errors": {
+    "default": ["I'm not sure I understand.", "Could you rephrase that?", "I'm still learning!", "I'm not sure I can help with that right now. Could you try asking in a different way?", "Sorry, I didn't get that. Can you clarify?"],
+    "invalid input": ["I didn't catch that. Could you say it again?", "Sorry, I didn't understand your input. Can you try again?", "I'm not sure how to help with that request. Could you ask differently?"],
+    "no result": ["I couldn't find any results for that. Can you provide more details?", "Unfortunately, I couldn't find what you're looking for. Can you try another search?", "Sorry, I couldn't find anything. Could you try rephrasing your request?"]
+  },
+  "time": {
+    "current time": ["The current time is %time%.", "It is %time% right now.", "As of now, the time is %time%."],
+    "time question": ["What time is it?", "Can you tell me the time?", "What’s the current time?", "Could you let me know the time?"]
+  },
+  "weather": {
+    "weather today": ["The weather today is %weather%.", "Today’s forecast is %weather%.", "It looks like %weather% today."],
+    "current weather": ["The current weather is %weather%.", "It’s %weather% right now.", "Currently, the weather is %weather%."]
+  },
+  "suggestions": {
+    "recommend place": ["If you're looking for a place to visit, I recommend %place%.", "You might want to check out %place%. It's great!"],
+    "activity suggestion": ["How about trying %activity% today?", "I suggest you try %activity%!"]
+  },
+  "feedback": {
+    "positive feedback": ["Thank you for your kind words!", "I appreciate your feedback!", "I'm glad I could assist you!"],
+    "negative feedback": ["I'm sorry to hear that. How can I improve?", "I apologize for the inconvenience. What went wrong?", "Thanks for your feedback, I'll work on improving."]
+  }
+}
+

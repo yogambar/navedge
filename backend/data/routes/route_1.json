@@ -1,0 +1,49 @@
+{
+  "route_id": "1",
+  "source": {
+    "name": "New York City, USA",
+    "latitude": 40.712776,
+    "longitude": -74.005974
+  },
+  "destination": {
+    "name": "Los Angeles, USA",
+    "latitude": 34.052235,
+    "longitude": -118.243683
+  },
+  "waypoints": [
+    {
+      "name": "Chicago, USA",
+      "latitude": 41.878113,
+      "longitude": -87.629799
+    },
+    {
+      "name": "Denver, USA",
+      "latitude": 39.739236,
+      "longitude": -104.990251
+    }
+  ],
+  "distance_km": 4500,
+  "estimated_time_min": 2700,
+  "route_path": [
+    {
+      "latitude": 40.712776,
+      "longitude": -74.005974
+    },
+    {
+      "latitude": 41.878113,
+      "longitude": -87.629799
+    },
+    {
+      "latitude": 39.739236,
+      "longitude": -104.990251
+    },
+    {
+      "latitude": 34.052235,
+      "longitude": -118.243683
+    }
+  ],
+  "traffic_conditions": "moderate",
+  "road_type": "highway",
+  "toll_roads": true
+}
+

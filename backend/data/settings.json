@@ -1,0 +1,39 @@
+{
+  "general": {
+    "language": "en",
+    "theme": "light",
+    "notifications": true
+  },
+  "map": {
+    "default_zoom": 5,
+    "location_permission": false,
+    "current_location_as_source": false,
+    "map_data_path": "backend/map"
+  },
+  "sound": {
+    "enabled": true,
+    "volume": 75
+  },
+  "chatbot": {
+    "voice_response": false,
+    "typing_animation": true,
+    "response_delay": 1.5
+  },
+  "user": {
+    "profile_visibility": "public",
+    "auto_login": false
+  },
+  "authentication": {
+    "clerk_publishable_key": "pk_test_am9pbnQtY2FpbWFuLTg1LmNsZXJrLmFjY291bnRzLmRldiQ",
+    "clerk_secret_key": "sk_test_7aiAQhOZIgF13Gtix21rZwMllMiTrEAKWlSMtbqqmd"
+  },
+  "backend": {
+    "executable_path": "backend/build/navedge_backend",
+    "log_level": "info",
+    "data_storage": "backend/data/"
+  },
+  "routes": {
+    "data_path": "backend/data/routes"
+  }
+}
+

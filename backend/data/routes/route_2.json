@@ -1,0 +1,49 @@
+{
+  "route_id": "2",
+  "source": {
+    "name": "London, UK",
+    "latitude": 51.507351,
+    "longitude": -0.127758
+  },
+  "destination": {
+    "name": "Berlin, Germany",
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  },
+  "waypoints": [
+    {
+      "name": "Brussels, Belgium",
+      "latitude": 50.850346,
+      "longitude": 4.351721
+    },
+    {
+      "name": "Amsterdam, Netherlands",
+      "latitude": 52.367573,
+      "longitude": 4.904139
+    }
+  ],
+  "distance_km": 1100,
+  "estimated_time_min": 720,
+  "route_path": [
+    {
+      "latitude": 51.507351,
+      "longitude": -0.127758
+    },
+    {
+      "latitude": 50.850346,
+      "longitude": 4.351721
+    },
+    {
+      "latitude": 52.367573,
+      "longitude": 4.904139
+    },
+    {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  ],
+  "traffic_conditions": "light",
+  "road_type": "highway",
+  "toll_roads": false
+}
+

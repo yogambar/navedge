@@ -1,0 +1,51 @@
+group 'flutter.plugins.vibrate.vibrate'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22"
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android' // ✅ Required for kotlinOptions
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+android {
+    namespace 'flutter.plugins.vibrate.vibrate'
+    compileSdkVersion 35
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 35
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+
+    kotlinOptions {
+        jvmTarget = "21"
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
