@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary app color used for notifications etc. -->
+    <color name="primary">#FF6200EE</color> <!-- You can customize this color -->
+    
+    <!-- Optional additional colors -->
+    <color name="primaryVariant">#FF3700B3</color>
+    <color name="secondary">#FF03DAC6</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="error">#FFB00020</color>
+    <color name="onPrimary">#FFFFFFFF</color>
+    <color name="onSecondary">#FF000000</color>
+    <color name="onBackground">#FF000000</color>
+    <color name="onSurface">#FF000000</color>
+    <color name="onError">#FFFFFFFF</color>
+</resources>
+

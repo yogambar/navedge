@@ -1,0 +1,3 @@
+/home/kali/Project/navedge/backend/build/CMakeFiles/navedge_backend.dir
+/home/kali/Project/navedge/backend/build/CMakeFiles/edit_cache.dir
+/home/kali/Project/navedge/backend/build/CMakeFiles/rebuild_cache.dir

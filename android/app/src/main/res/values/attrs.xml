@@ -1,0 +1,3 @@
+<declare-styleable name="CustomAttributes">
+    <attr name="lStar" format="float" />
+</declare-styleable>

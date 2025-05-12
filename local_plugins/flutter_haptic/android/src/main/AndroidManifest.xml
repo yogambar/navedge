@@ -1,0 +1,8 @@
+<!-- File: /home/kali/.pub-cache/hosted/pub.dev/flutter_haptic-0.0.3/android/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permission for vibration -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+</manifest>
+
