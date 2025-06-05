@@ -15,7 +15,7 @@ Flutter • Dart • Firebase • C++ (Crow Framework) • SQLite • REST APIs 
 - [🚀 Getting Started](#-getting-started)  
 - [✅ Prerequisites](#-prerequisites)  
 - [🛠️ Installation](#-installation)  
-- [▶️ Usage](#-usage)  
+- [▶️ Usage](#️-usage)  
 - [🧠 Architecture](#-architecture)  
 - [📦 Project Deliverables](#-project-deliverables)  
 - [🧪 Testing](#-testing)  
@@ -55,25 +55,30 @@ flutter upgrade
 flutter upgrade --major
 flutter pub upgrade
 flutter clean
-```
-
-Install dependencies:
-```bash
 flutter pub get
 ```
 
 ---
 
 ## ▶️ Usage  
-Activate your virtual environment and run the GUI:
+
+### Run the app on available platforms:
 ```bash
-source myenv/bin/activate
-flutter run lib/gui/gui.dart
+flutter run                      # Default device
+flutter run -d chrome            # Run on Web (Chrome)
+flutter run -d android           # Run on Android device/emulator
+flutter run -d linux             # Run on Linux desktop
+flutter run -d windows           # Run on Windows desktop
+flutter run -d macos             # Run on macOS desktop
 ```
 
-Or simply:
+### Build for production:
 ```bash
-flutter run
+flutter build apk                # Build Android APK
+flutter build linux              # Build for Linux
+flutter build windows            # Build for Windows
+flutter build macos              # Build for macOS
+flutter build web                # Build for Web
 ```
 
 ---
